@@ -15,5 +15,10 @@ namespace Elmish.WPF.Samples.SubModelSelectedItem
                 }
             };
         }
+
+        private void ListView_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
